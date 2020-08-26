@@ -1,0 +1,79 @@
+*{
+    margin: 0; padding: 0; box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    background-image: linear-gradient(rgba(255,0,0,0), #f393db);
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+.login{
+    height: 400px;
+    position: relative;
+}
+
+.login-button{
+    font-size: 23px;
+    margin: 0;
+    margin-top: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.exit_button{
+    background-color: rgb(73, 70, 70);
+    color: white;
+    font-size: 23px;
+    padding: 5px 20px 5px 20px;
+    margin: 0;
+    margin-top: 80px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+}
+
+
+
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 8%;
+    text-align: center;
+}
+
+.admin{
+    color: green;
+}
+
+h2{
+    font-family: monospace;
+    margin-top: 4%;
+    text-align: center;
+}
+
+.G{
+    font-size: 30px;
+    color: rgb(240, 44, 44);
+}
+
+.o{
+    font-size: 30px;
+    color: rgb(243, 243, 113);
+}
+
+.g{
+    font-size: 30px;
+    color: rgb(20, 218, 20);
+}
+
+.le{
+    font-size: 30px;
+    color: rgb(101, 194, 231);
+}
